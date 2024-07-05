@@ -135,6 +135,7 @@ RDBMSReader插件实现了从RDBMS读取数据。在底层实现上，RDBMSReade
 	- 达梦 jdbc:dm://ip:port/database
 	- db2格式 jdbc:db2://ip:port/database
 	- PPAS格式 jdbc:edb://ip:port/database
+        - Sybase格式 jdbc:sybase:Tds:ip:port?ServiceName=dbname (Sybase anwhere 11.0)
   
 	**rdbmsreader如何增加新的数据库支持:**  
 	
