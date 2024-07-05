@@ -97,6 +97,7 @@ RDBMSWriter 通过 DataX 框架获取 Reader 生成的协议数据，RDBMSWriter
 	- 达梦 jdbc:dm://ip:port/database
 	- db2格式 jdbc:db2://ip:port/database
 	- PPAS格式 jdbc:edb://ip:port/database
+        - Sybase格式 jdbc:sybase:Tds:ip:port?ServiceName=dbname (Sybase anywhere 11.0)
   
 	**rdbmswriter如何增加新的数据库支持:**  
 	
